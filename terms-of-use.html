@@ -16,17 +16,18 @@
         .legal-hero{background:var(--dark);padding:80px 20px 50px;text-align:center;}
         .legal-hero h1{font-family:'Playfair Display',serif;color:#fff;font-size:clamp(30px,5vw,52px);font-weight:900;margin:0 0 10px;}
         .legal-hero p{color:var(--gold);font-size:14px;letter-spacing:2px;text-transform:uppercase;margin:0;}
-        .legal-wrap{max-width:860px;margin:0 auto;padding:60px 24px 80px;color:var(--dark);line-height:1.7;}
+        .legal-wrap{max-width:860px;margin:0 auto;padding:60px 24px 80px;color:var(--dark);line-height:1.7;text-align:center;}
         .legal-wrap h2{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;margin:40px 0 12px;color:var(--dark);}
         .legal-wrap h2:first-child{margin-top:0;}
-        .legal-wrap p,.legal-wrap li{font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;color:#333;line-height:1.8;margin:0 0 16px;}
-        .legal-wrap ul{padding-left:22px;margin:0 0 16px;}
+        .legal-wrap p,.legal-wrap li{font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;color:#333;line-height:1.8;margin:0 auto 16px;max-width:680px;}
+        .legal-wrap ul{padding-left:22px;margin:0 auto 16px;max-width:680px;display:inline-block;text-align:left;}
         .legal-wrap ul li{margin-bottom:10px;}
         .legal-wrap a{color:var(--gold);font-weight:600;text-decoration:none;cursor:pointer;}
         .legal-wrap a:hover{text-decoration:underline;}
-        .legal-back{display:inline-block;margin-top:30px;padding:12px 28px;background:var(--gold);color:#000;font-family:'DM Sans',sans-serif;font-weight:600;border-radius:6px;text-decoration:none;cursor:pointer;}
-        .legal-back:hover{filter:brightness(1.05);text-decoration:none;}
-        .updated{font-size:13px;color:#888;font-style:italic;margin-bottom:30px;}
+        .legal-back{display:inline-block;margin-top:30px;padding:12px 28px;background:var(--gold);color:#000 !important;font-family:'DM Sans',sans-serif;font-weight:600;border-radius:6px;text-decoration:none;cursor:pointer;}
+        .legal-back:hover{filter:brightness(1.05);text-decoration:none;color:#000 !important;}
+        .updated{font-size:13px;color:#888;font-style:italic;margin-bottom:30px;text-align:center;}
+        .legal-back-wrap{text-align:center;}
     </style>
 </head>
 <body>
@@ -125,7 +126,9 @@
                 <li>Address: Plot no. 178 &amp; 179, Phase 1, Metro City, Kel Aynambakkam, Chennai, India — 600 095</li>
             </ul>
 
-            <a href="index.html" class="legal-back">← Back to Home</a>
+            <div class="legal-back-wrap">
+                <a href="index.html" class="legal-back">← Back to Home</a>
+            </div>
         </div>
     </main>
 
@@ -182,9 +185,6 @@
         </div>
         <div class="f-bottom">
             <p class="f-copy">&copy; 2025 Brand 360. All rights reserved. &nbsp;·&nbsp; <a href="privacy-policy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms-of-use.html">Terms of Use</a></p>
-            <div class="f-social">
-                <a href="https://www.instagram.com/brand360exp?igsh=dmZrdzRrdGlqNmd0" target="_blank" rel="noopener">Instagram</a>
-            </div>
         </div>
     </footer>
 
