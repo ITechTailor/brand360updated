@@ -52,12 +52,16 @@ nav {
   flex-shrink: 0;
   display: flex;
   align-items: center;
+  height: 100%;
+  padding: 4px 0;
 }
 .nav-logo-img {
-  height: 125px;
+  height: 100%;
   width: auto;
+  max-width: 100%;
   display: block;
-  border-radius: 5px;
+  object-fit: contain;
+  border-radius: 4px;
 }
 .nav-logo em {
   color: var(--gold);
@@ -1196,10 +1200,11 @@ footer {
   margin-bottom: 14px;
 }
 .f-logo-img {
-  height: 80px;
+  height: 56px;
   width: auto;
+  max-width: 100%;
   display: block;
-  border-radius: 6px;
+  border-radius: 4px;
   opacity: 0.95;
   transition: opacity 0.2s;
 }
